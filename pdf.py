@@ -11,7 +11,7 @@ os.makedirs(output_folder, exist_ok=True)
 max_width = 1500
 max_height = 2100
 jpeg_quality = 75
-valid_extensions = ('.jpg', '.jpeg')
+valid_extensions = '.png'
 
 
 def resize_and_compress_image(input_path, output_path):
